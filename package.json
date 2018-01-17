@@ -1,0 +1,35 @@
+{
+  "name": "bn2-frontend",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Fedor Borshev <f@f213.in>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore . && sass-lint-vue components layouts assets"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.5.0",
+    "nuxt": "^1.0.0-rc11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-vue": "^4.0.1",
+    "node-sass": "^4.7.2",
+    "postcss-nesting": "^4.2.1",
+    "sass-lint": "^1.12.1",
+    "sass-lint-vue": "^0.2.1",
+    "sass-loader": "^6.0.6"
+  }
+}

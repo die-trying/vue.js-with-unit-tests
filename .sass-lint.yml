@@ -1,0 +1,17 @@
+rules:
+  # Extends
+  property-sort-order: 0
+  no-color-literals: 0
+  class-name-format: 2
+  one-declaration-per-line: 2
+  single-line-per-selector: 2
+  empty-line-between-blocks: 2
+  no-trailing-whitespace: 2
+  no-misspelled-properties:
+    - 2
+    -
+      extra-properties:
+        - 'font-smoothing'
+linters:
+  SelectorFormat:
+    enabled: 'hyphenated_BEM'

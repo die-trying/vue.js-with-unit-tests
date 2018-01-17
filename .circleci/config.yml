@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: Install deps
+          command: yarn
+
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - "node_modules"
+
+      - run:
+          name: Run Unit tests
+          command: yarn test
+
+      - run:
+          name: build
+          command: yarn build
