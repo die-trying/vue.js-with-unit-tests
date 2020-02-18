@@ -1,10 +1,14 @@
 <template>
   <main>
     <section class="slider">
-      <h2 class="visually-hidden">Slides</h2>
+      <h2 class="visually-hidden">
+        Slides
+      </h2>
       <ul class="slider__slides">
         <li class="slider__slide">
-          <h3 class="slider__title">Slide Title</h3>
+          <h3 class="slider__title">
+            Slide Title
+          </h3>
           <p class="slider__description">
             Lorem ipsum dolor sit amet.
           </p>
@@ -13,7 +17,9 @@
     </section>
 
     <section class="deals">
-      <h2 class="visually-hidden">Deals</h2>
+      <h2 class="visually-hidden">
+        Deals
+      </h2>
       <ul class="deals__items">
         <li class="deals__item">
           <a href="/" class="deals__link deals__link--image-left">
@@ -37,23 +43,39 @@
     </section>
 
     <section class="featured">
-      <h2 class="visually-hidden">Featured categories</h2>
+      <h2 class="visually-hidden">
+        Featured categories
+      </h2>
       <ul class="featured__items">
         <li class="featured__item">
           <!--фоновое изображение-->
-          <h3 class="featured__title">Title</h3>
+          <h3 class="featured__title">
+            Title
+          </h3>
         </li>
       </ul>
     </section>
 
     <section class="customer-banner">
-      <h2 class="visually-hidden">Contacts</h2>
-      <p class="customer-banner__text">Lorem ipsum dolor sit amet.</p>
+      <h2 class="visually-hidden">
+        Contacts
+      </h2>
+      <p class="customer-banner__text">
+        Lorem ipsum dolor sit amet.
+      </p>
       <ul class="customer-banner__items">
-        <li class="customer-banner__item">1</li>
-        <li class="customer-banner__item">2</li>
-        <li class="customer-banner__item">3</li>
-        <li class="customer-banner__item">4</li>
+        <li class="customer-banner__item">
+          1
+        </li>
+        <li class="customer-banner__item">
+          2
+        </li>
+        <li class="customer-banner__item">
+          3
+        </li>
+        <li class="customer-banner__item">
+          4
+        </li>
       </ul>
     </section>
   </main>

@@ -1,9 +1,11 @@
 <template>
   <section class="container">
-    <h1 class="visually-hidden">ГдеМатериал.Ру</h1>
-    <PageHeader/>
-    <nuxt/>
-    <PageFooter/>
+    <h1 class="visually-hidden">
+      ГдеМатериал.Ру
+    </h1>
+    <PageHeader />
+    <nuxt />
+    <PageFooter />
   </section>
 </template>
 

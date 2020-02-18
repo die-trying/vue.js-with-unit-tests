@@ -1,27 +1,53 @@
 <template>
   <footer class="footer">
     <section class="footer__about-us">
-      <h2 class="footer__title">Company</h2>
+      <h2 class="footer__title">
+        Company
+      </h2>
       <ul class="footer__items">
-        <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Sell on Jet</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Jet Affiliates</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">JetCares</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Tech Blog</a></li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">About Us</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Sell on Jet</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Jet Affiliates</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">JetCares</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Tech Blog</a>
+        </li>
       </ul>
     </section>
     <section class="footer__social">
-      <h2 class="footer__title">Social</h2>
+      <h2 class="footer__title">
+        Social
+      </h2>
       <ul class="footer__items footer__items--inline">
-        <li class="footer__item"><a class="footer__link">vk</a></li>
-        <li class="footer__item"><a class="footer__link">fb</a></li>
-        <li class="footer__item"><a class="footer__link">instagram</a></li>
-        <li class="footer__item"><a class="footer__link">telegram</a></li>
+        <li class="footer__item">
+          <a class="footer__link">vk</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link">fb</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link">instagram</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link">telegram</a>
+        </li>
       </ul>
     </section>
     <section class="footer__copyright">
-      <h2 class="visually-hidden">Copyright</h2>
+      <h2 class="visually-hidden">
+        Copyright
+      </h2>
       <p>Copyright © 2017 Jet.com, Inc.</p>
     </section>
   </footer>
@@ -34,13 +60,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~assets/variables.scss';
+@import '~assets/variables';
 
 .footer {
   display: grid;
-  grid-template-areas:
-    "social"
-    "copyright";
+  grid-template-areas: "social" "copyright";
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding-top: 2rem;

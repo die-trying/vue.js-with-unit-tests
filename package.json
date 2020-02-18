@@ -12,24 +12,24 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . && sass-lint-vue components layouts assets"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^4.5.0",
-    "nuxt": "^1.0.0-rc11"
+    "@nuxtjs/axios": "^5.9.1",
+    "nuxt": "^2.11.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-import-resolver-webpack": "^0.8.3",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^4.0.1",
+    "babel-eslint": "^10.0.03",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-vue": "^4.0.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^6.2.1",
     "node-sass": "^4.7.2",
-    "postcss-nesting": "^4.2.1",
+    "postcss-nesting": "^7.0.1",
     "sass-lint": "^1.12.1",
-    "sass-lint-vue": "^0.2.1",
-    "sass-loader": "^6.0.6"
+    "sass-lint-vue": "^0.4.0",
+    "sass-loader": "^8.0.2"
   }
 }

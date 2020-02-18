@@ -1,13 +1,23 @@
 <template>
   <header class="header">
     <section class="top-bar">
-      <h2 class="visually-hidden">Top bar</h2>
+      <h2 class="visually-hidden">
+        Top bar
+      </h2>
       <span class="top-bar__info">special deals <a class="top-bar__link" href="/">link</a></span>
       <ul class="top-links">
-        <li class="top-links__item"><a class="top-links__link">first</a></li>
-        <li class="top-links__item"><a class="top-links__link">second</a></li>
-        <li class="top-links__item"><a class="top-links__link">third</a></li>
-        <li class="top-links__item"><a class="top-links__link">fourth</a></li>
+        <li class="top-links__item">
+          <a class="top-links__link">first</a>
+        </li>
+        <li class="top-links__item">
+          <a class="top-links__link">second</a>
+        </li>
+        <li class="top-links__item">
+          <a class="top-links__link">third</a>
+        </li>
+        <li class="top-links__item">
+          <a class="top-links__link">fourth</a>
+        </li>
       </ul>
     </section>
     <nav class="main-navigation">
@@ -15,36 +25,73 @@
         <a href="/"><img src="/logo.png" alt="ГдеМатериал.Ру"></a> <!--TODO(iNerV) do dynamically link-->
       </div>
       <div class="main-navigation__burger">
-        <button class="main-navigation__open-menu-btn">Menu</button>
+        <button class="main-navigation__open-menu-btn">
+          Menu
+        </button>
       </div>
       <div class="main-navigation__search">
         <input class="main-navigation__input" type="search" placeholder="search">
       </div>
       <ul class="user-box">
-        <li class="user-box__item"><a class="user-box__link" href="#user">user</a></li>
-        <li class="user-box__item"><a class="user-box__link" href="#basket">basket</a></li>
+        <li class="user-box__item">
+          <a class="user-box__link" href="#user">user</a>
+        </li>
+        <li class="user-box__item">
+          <a class="user-box__link" href="#basket">basket</a>
+        </li>
       </ul>
     </nav>
     <ul class="site-navigation">
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category2</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category3</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category4</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category5</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category6</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category7</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category8</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category9</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category10</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category11</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category12</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category13</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category14</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category15</a></li>
-      <li class="site-navigation__item"><a class="site-navigation__link" href="/">Category16</a></li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category2</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category3</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category4</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category5</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category6</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category7</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category8</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category9</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category10</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category11</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category12</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category13</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category14</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category15</a>
+      </li>
+      <li class="site-navigation__item">
+        <a class="site-navigation__link" href="/">Category16</a>
+      </li>
     </ul>
   </header>
-
 </template>
 
 <script>
