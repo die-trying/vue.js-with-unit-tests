@@ -31,6 +31,9 @@ module.exports = {
   },
   router: {
   },
+  plugins: [
+    '~plugins/scroll.js'
+  ],
   build: {
     /*
     ** Run ESLint on save
