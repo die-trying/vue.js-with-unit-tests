@@ -49,6 +49,7 @@ export default {
         this.$store.dispatch('the_menu/stepNext', this.item)
         this.$emit('slide', 'right')
       } else {
+        this.$store.dispatch('the_menu/setMenuHide')
         location.href = this.fullPath
       }
 
